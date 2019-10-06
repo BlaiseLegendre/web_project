@@ -1,4 +1,3 @@
-var gulp        = require('gulp');
 const gulp = require("gulp");
 const browsersync = require("browser-sync");
 const phpConnect = require('gulp-connect-php');
