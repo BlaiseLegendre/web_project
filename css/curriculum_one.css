@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+/*********************
+BREAKPOINTS
+*********************/
+/*********************
+Fontsize
+*********************/
+/*********************
+VARIABLES
+*********************/
+a, a:visited {
+  text-decoration: none;
+  color: #2c303c; }
+
+a:hover {
+  text-decoration: line-through; }
+
+.curiculum_landing .lp-title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-size: 2.1rem;
+  line-height: 1.1;
+  letter-spacing: 0.15em;
+  font-weight: 600;
+  color: #2c303c; }
+  @media (min-width: 768px) {
+    .curiculum_landing .lp-title {
+      font-size: 26px;
+      font-size: 2.6rem; } }
+  @media (min-width: 960px) {
+    .curiculum_landing .lp-title {
+      font-size: 30px;
+      font-size: 3rem; } }
+  @media (min-width: 1920px) {
+    .curiculum_landing .lp-title {
+      font-size: 50px;
+      font-size: 5rem; } }
+
+.curiculum_landing .lp-subtitle {
+  font-size: 10px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0.23em;
+  padding: 1rem; }
+  @media (min-width: 960px) {
+    .curiculum_landing .lp-subtitle {
+      font-size: 16px;
+      font-size: 1.6rem; } }
+  .curiculum_landing .lp-subtitle--headertitle {
+    color: #2c303c;
+    padding: 5% 0 7%; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .lp-subtitle--headertitle {
+        padding: 3% 0 4%; } }
+  .curiculum_landing .lp-subtitle--profiltitle {
+    background: #2c303c; }
+  .curiculum_landing .lp-subtitle--eductitle {
+    background: #42434e; }
+  .curiculum_landing .lp-subtitle--dark {
+    color: #2c303c; }
+  .curiculum_landing .lp-subtitle__bouton {
+    color: #2c303c;
+    font-size: 75%; }
+
+.curiculum_landing .lp-descr-title {
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2c303c;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 5% 0 3%; }
+  @media (min-width: 768px) {
+    .curiculum_landing .lp-descr-title {
+      font-size: 10px;
+      font-size: 1rem; } }
+  @media (min-width: 960px) {
+    .curiculum_landing .lp-descr-title {
+      font-size: 14px;
+      font-size: 1.4rem; } }
+  @media (min-width: 1920px) {
+    .curiculum_landing .lp-descr-title {
+      font-size: 16px;
+      font-size: 1.6rem; } }
+  @media all and (min-width: 768px) {
+    .curiculum_landing .lp-descr-title {
+      margin: 4% 0 2%; } }
+
+.curiculum_landing .lp-descr-subtitle {
+  font-size: 10px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2c303c; }
+  @media (min-width: 768px) {
+    .curiculum_landing .lp-descr-subtitle {
+      font-size: 9px;
+      font-size: 0.9rem; } }
+  @media (min-width: 960px) {
+    .curiculum_landing .lp-descr-subtitle {
+      font-size: 14px;
+      font-size: 1.4rem; } }
+  @media (min-width: 1920px) {
+    .curiculum_landing .lp-descr-subtitle {
+      font-size: 16px;
+      font-size: 1.6rem; } }
+  .curiculum_landing .lp-descr-subtitle--itagrispale {
+    color: #7e818b;
+    font-style: italic;
+    margin-bottom: 6%; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .lp-descr-subtitle--itagrispale {
+        margin-bottom: 4%; } }
+
+.curiculum_landing .lp-descr {
+  font-size: 10px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2c303c;
+  line-height: 1.6;
+  text-align: left; }
+  @media (min-width: 768px) {
+    .curiculum_landing .lp-descr {
+      font-size: 8px;
+      font-size: 0.8rem; } }
+  @media (min-width: 960px) {
+    .curiculum_landing .lp-descr {
+      font-size: 11px;
+      font-size: 1.1rem; } }
+  @media (min-width: 1920px) {
+    .curiculum_landing .lp-descr {
+      font-size: 13px;
+      font-size: 1.3rem; } }
+  .curiculum_landing .lp-descr--ita-gr {
+    color: #6c6f7a;
+    font-style: italic;
+    margin: 6% 0 0; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .lp-descr--ita-gr {
+        margin: 2% 0 0; } }
+  .curiculum_landing .lp-descr--white {
+    font-size: 10px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin: 0 7.56303% 6%;
+    padding-top: 6%; }
+    @media (min-width: 768px) {
+      .curiculum_landing .lp-descr--white {
+        font-size: 8px;
+        font-size: 0.8rem; } }
+    @media (min-width: 960px) {
+      .curiculum_landing .lp-descr--white {
+        font-size: 11px;
+        font-size: 1.1rem; } }
+    @media (min-width: 1920px) {
+      .curiculum_landing .lp-descr--white {
+        font-size: 18px;
+        font-size: 1.8rem; } }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .lp-descr--white {
+        margin: 0 7.56303% 0; } }
+  .curiculum_landing .lp-descr--compet {
+    color: #FFFFFF;
+    margin: 6% 7.56303% 4%; }
+  .curiculum_landing .lp-descr--orange {
+    color: #FFFFFF; }
+    .curiculum_landing .lp-descr--orange span {
+      text-transform: uppercase;
+      color: #de9527; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .lp-descr--orange {
+        line-height: 2; } }
+
+.curiculum_landing .separator-line {
+  width: 100%;
+  height: 2px; }
+
+.curiculum_landing .wrapper-line {
+  padding-left: 5%; }
+
+.curiculum_landing .separator-line span {
+  background: #2c303c;
+  height: 2px;
+  display: inline-block;
+  vertical-align: top; }
+  .curiculum_landing .separator-line span.dotted {
+    background: none;
+    border-top: 2px dashed #9ea0a9; }
+  .curiculum_landing .separator-line span.white {
+    background: #ffffff; }
+
+.curiculum_landing .separator-line--anim span {
+  -webkit-animation: animateline 1s ease forwards; }
+
+.curiculum_landing .skill-bar .animateline {
+  width: 70%; }
+
+@-webkit-keyframes animateline {
+  from {
+    width: 0%; }
+  to {
+    width: 100%; } }
+
+@media all and (min-width: 768px) {
+  .curiculum_landing .photo-title {
+    display: flex; } }
+
+.curiculum_landing .photo-title__photo {
+  display: none; }
+  @media all and (min-width: 768px) {
+    .curiculum_landing .photo-title__photo {
+      display: block;
+      width: 33.61345%; }
+      .curiculum_landing .photo-title__photo .wrapper {
+        border-right: 4px solid #dd9427; }
+      .curiculum_landing .photo-title__photo img {
+        width: 100%; } }
+
+.curiculum_landing .photo-title__title {
+  padding-top: 5%; }
+  @media all and (min-width: 768px) {
+    .curiculum_landing .photo-title__title {
+      padding: 3% 0 0;
+      width: 67.22689%; } }
+  .curiculum_landing .photo-title__title .wrapper {
+    margin-left: 7.56303%; }
+  .curiculum_landing .photo-title__title .social {
+    margin-top: 10%; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .photo-title__title .social {
+        margin-top: 5%; } }
+    .curiculum_landing .photo-title__title .social img {
+      vertical-align: sub;
+      width: 8%;
+      margin-right: 3%; }
+      @media all and (min-width: 768px) {
+        .curiculum_landing .photo-title__title .social img {
+          width: 5%;
+          margin-right: 2%; } }
+
+.curiculum_landing .profil-education {
+  padding-top: 8%;
+  width: 100%; }
+  @media all and (min-width: 768px) {
+    .curiculum_landing .profil-education {
+      padding-top: 0;
+      display: flex;
+      justify-content: space-between; } }
+  .curiculum_landing .profil-education__profil {
+    background: #a97630;
+    border-bottom: 4px solid #dd9427; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .profil-education__profil {
+        width: 33.61345%;
+        border-bottom: 2px solid #dd9427; } }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .profil-education__profil .wrapper {
+        border-right: 4px solid #dd9427;
+        height: 100%; } }
+  .curiculum_landing .profil-education__education {
+    background: #e8e7e9;
+    border-bottom: 4px solid #dd9427; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .profil-education__education {
+        width: 67.22689%;
+        border-bottom: 2px solid #dd9427; } }
+    .curiculum_landing .profil-education__education .wrapper {
+      padding-bottom: 8%; }
+      @media all and (min-width: 768px) {
+        .curiculum_landing .profil-education__education .wrapper {
+          padding-bottom: 3%; } }
+    .curiculum_landing .profil-education__education .bloc-etude {
+      padding: 8% 7.56303% 0; }
+      @media all and (min-width: 768px) {
+        .curiculum_landing .profil-education__education .bloc-etude {
+          padding: 5% 3.36134% 0; } }
+      .curiculum_landing .profil-education__education .bloc-etude span {
+        padding: 1% 3% 1% 0;
+        border-top: 1px solid #2c303c;
+        border-right: 1px solid #2c303c;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom: 1px solid #2c303c; }
+        @media all and (min-width: 768px) {
+          .curiculum_landing .profil-education__education .bloc-etude span {
+            padding: 1% 2% 1% 0; } }
+
+@media all and (min-width: 768px) {
+  .curiculum_landing .competences-historique {
+    display: flex;
+    flex-direction: row-reverse; } }
+
+@media all and (min-width: 768px) {
+  .curiculum_landing .competences-historique .wrapper-border {
+    border-right: 4px solid #dd9427;
+    height: 100%; } }
+
+.curiculum_landing .competences-historique__historique {
+  border-bottom: 4px solid #dd9427; }
+  @media all and (min-width: 768px) {
+    .curiculum_landing .competences-historique__historique {
+      width: 67.22689%;
+      border-bottom: none; } }
+  @media all and (min-width: 768px) {
+    .curiculum_landing .competences-historique__historique .bouton-pages {
+      display: flex;
+      justify-content: space-between; } }
+  .curiculum_landing .competences-historique__historique .bouton-pages #other-page {
+    display: none; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .competences-historique__historique .bouton-pages #other-page {
+        display: block; } }
+  .curiculum_landing .competences-historique__historique #page2 {
+    display: none; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .competences-historique__historique #page2 {
+        margin-top: 2%; } }
+  .curiculum_landing .competences-historique__historique .container-emploi {
+    padding: 5% 7.56303% 7%; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .competences-historique__historique .container-emploi {
+        padding: 3% 7.56303% 4%; } }
+
+.curiculum_landing .competences-historique__competences {
+  background: #2c303c; }
+  @media all and (min-width: 768px) {
+    .curiculum_landing .competences-historique__competences {
+      width: 33.61345%; } }
+  .curiculum_landing .competences-historique__competences .wrapper-competences {
+    padding-bottom: 4%; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .competences-historique__competences .wrapper-competences {
+        padding-bottom: 15%; } }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .competences-historique__competences .wrapper-competences .wrapper-line {
+        padding: 0 5% 0 6%; } }
+  .curiculum_landing .competences-historique__competences .container-rating {
+    border-top: 1px solid #dd9427;
+    border-bottom: 1px solid #dd9427;
+    height: 10px;
+    width: 90%;
+    margin: 0 auto; }
+    .curiculum_landing .competences-historique__competences .container-rating .color-rating {
+      background: #dd9427;
+      height: 10px; }
+      .curiculum_landing .competences-historique__competences .container-rating .color-rating--html {
+        width: 92%; }
+      .curiculum_landing .competences-historique__competences .container-rating .color-rating--css {
+        width: 90%; }
+      .curiculum_landing .competences-historique__competences .container-rating .color-rating--photoshop {
+        width: 85%; }
+      .curiculum_landing .competences-historique__competences .container-rating .color-rating--sublime {
+        width: 83%; }
+      .curiculum_landing .competences-historique__competences .container-rating .color-rating--office {
+        width: 72%; }
+  @media all and (min-width: 768px) {
+    .curiculum_landing .competences-historique__competences .wrapper-contact {
+      padding: 3% 0 0; } }
+  @media all and (min-width: 768px) {
+    .curiculum_landing .competences-historique__competences .wrapper-contact .wrapper-line {
+      padding: 0 5% 0 6%; } }
+  .curiculum_landing .competences-historique__competences .wrapper-contact a {
+    color: #FFFFFF; }
+  .curiculum_landing .competences-historique__competences .wrapper-contact .containertext {
+    padding: 5% 0 5% 7.56303%; }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .competences-historique__competences .wrapper-contact .containertext {
+        padding: 5% 0 0 7.56303%; } }
+    @media all and (min-width: 768px) {
+      .curiculum_landing .competences-historique__competences .wrapper-contact .containertext p:last-child {
+        margin-top: 10%; } }

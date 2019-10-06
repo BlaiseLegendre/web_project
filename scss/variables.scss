@@ -1,0 +1,18 @@
+/*********************
+VARIABLES
+*********************/
+//breakpoints
+$mobile: 320px;
+$tablet: 768px;
+$laptop: 960px;
+$desktop: 1920px;
+
+//Font Color
+$primary-color: #FFF;
+$secondary-color: #555555;
+$tertiary-color: #333333;
+//Font Family
+$ff-title: 'Montserrat', sans-serif;
+$ff-text: 'Merriweather Sans', sans-serif;
+//responsive fonts
+$breakpoint-collection:$mobile, $tablet, $laptop, $desktop;

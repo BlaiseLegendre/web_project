@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import "mixins.scss";
+@import "../node_modules/susy/sass/susy";
+@import "variables.scss";
+
+a, a:visited{
+	text-decoration: none;
+	color: #2c303c;
+}
+a:hover{
+	text-decoration: line-through;
+}
+
+.curiculum_landing{
+	//FONTS-TEXT-SIZE
+	.lp-title{
+		font-family: $ff-title;
+		text-transform: uppercase;
+		@include all-font-size(2.1, 2.6, 3, 5);
+		line-height: 1.1;
+		letter-spacing: 0.15em;
+		font-weight: 600;
+		color: #2c303c;
+	}
+	.lp-subtitle{
+		@include all-font-size(1, 0, 1.6);
+		font-family: Arial, Helvetica, sans-serif;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		letter-spacing: 0.23em;
+		padding: 1rem;
+		&--headertitle{
+			color: #2c303c;
+			padding: 5% 0 7%;
+			@include breakpoint($tablet){
+				padding: 3% 0 4%;
+			}
+		}
+		&--profiltitle{
+			background:#2c303c;
+		}
+		&--eductitle{
+			background:#42434e;
+		}
+		&--dark{
+			color: #2c303c;
+		}
+		&__bouton{
+			color: #2c303c;
+			font-size: 75%;
+		}
+	}
+	.lp-descr-title{
+		@include all-font-size(1.2, 1, 1.4, 1.6);
+		font-family: Arial, Helvetica, sans-serif;
+		color: #2c303c;
+		font-weight: 600;
+		line-height: 1.2;
+		margin: 5% 0 3%;
+		@include breakpoint($tablet){
+			margin: 4% 0 2%;
+		}
+	}
+	.lp-descr-subtitle{
+		@include all-font-size(1, 0.9, 1.4, 1.6);
+		font-family: Arial, Helvetica, sans-serif;
+		color: #2c303c;
+		&--itagrispale{
+			color: #7e818b;
+			font-style: italic;
+			margin-bottom: 6%;
+			@include breakpoint($tablet){
+				margin-bottom: 4%;
+			}
+		}
+	}
+
+	.lp-descr{
+		@include all-font-size(1, 0.8, 1.1, 1.3);
+		font-family: Arial, Helvetica, sans-serif;
+		color: #2c303c;
+		line-height: 1.6;
+		text-align: left;
+		&--ita-gr{
+			color: #6c6f7a;
+			font-style: italic;
+			margin: 6% 0 0;
+			@include breakpoint($tablet){
+				margin: 2% 0 0;
+			}
+		}
+		&--white{
+			@include all-font-size(1, 0.8, 1.1, 1.8);
+			color: #FFFFFF;
+			margin: 0 span(2 of 24) 6%;
+			padding-top: 6%;
+			@include breakpoint($tablet){
+				margin: 0 span(2 of 24) 0;
+			}
+		}
+		&--compet{
+			color: #FFFFFF;
+			margin: 6% span(2 of 24) 4%;
+		}
+		&--orange{
+			color: #FFFFFF;
+			span{
+				text-transform: uppercase;
+				color: #de9527;
+			}
+			@include breakpoint($tablet){
+				line-height:2;
+			}
+		}
+	}
+
+	.separator-line {
+	    width: 100%; 
+	    height: 2px;
+	}
+	.wrapper-line{
+		padding-left: 5%;
+	}
+	.separator-line span {
+	    background: #2c303c;
+	    height: 2px;
+	    display: inline-block;
+	    vertical-align: top;
+	    &.dotted{
+	    	background: none;
+	    	border-top: 2px dashed #9ea0a9; 
+	    }
+	    &.white{
+	    	 background: #ffffff;
+	    }
+	}
+	.separator-line--anim span {
+	    -webkit-animation: animateline 1s ease forwards;
+	}
+	.skill-bar .animateline {
+	    width: 70%;
+	}
+	@-webkit-keyframes animateline {
+	    from { width: 0%; }
+	    to { width: 100%; }
+	}
+
+	.photo-title{
+		@include breakpoint($tablet){
+			display: flex;
+		}
+		&__photo{
+			display: none;
+			@include breakpoint($tablet){
+				display: block;
+				width: span(8 wide of 24);
+				.wrapper{
+					border-right: 4px solid #dd9427;
+				}
+				img{
+					width: 100%
+				}
+			}
+		}
+		&__title{
+			padding-top: 5%;
+			@include breakpoint($tablet){
+				padding: 3% 0 0;
+				width: span(16 wide of 24);
+			}
+			.wrapper{
+				margin-left: span(2 of 24);
+			}
+			.social{
+				margin-top: 10%;
+				@include breakpoint($tablet){
+					margin-top: 5%; 
+				}
+				img{
+					vertical-align: sub;
+	    			width: 8%;
+	    			margin-right: 3%;
+	    			@include breakpoint($tablet){
+	    				width: 5%;
+	    				margin-right: 2%;
+	    			}
+				}
+			}
+		}
+	}
+
+	.profil-education{
+		padding-top: 8%;
+		width: span(24 of 24);
+		@include breakpoint($tablet){
+			padding-top: 0;
+			display: flex;
+			justify-content: space-between;
+		}
+		&__profil{
+			background: #a97630;
+			border-bottom: 4px solid #dd9427;
+			@include breakpoint($tablet){
+				width: span(8 wide of 24);
+				border-bottom: 2px solid #dd9427;
+			}
+			.wrapper{
+				@include breakpoint($tablet){
+					border-right: 4px solid #dd9427;
+					height: 100%
+				}
+			}
+		}
+		&__education{
+			background: #e8e7e9;
+			border-bottom: 4px solid #dd9427;
+			@include breakpoint($tablet){
+				width: span(16 wide of 24);
+				border-bottom: 2px solid #dd9427;
+			}
+			.wrapper{
+				padding-bottom: 8%;
+				@include breakpoint($tablet){
+					padding-bottom: 3%;
+				}
+			}
+			.bloc-etude{
+				padding:8% span(2 of 24) 0;
+				@include breakpoint($tablet){
+					padding:5% span(1 of 24) 0;
+				}
+				span{
+					padding: 1% 3% 1% 0;
+					border-top: 1px solid #2c303c;
+					border-right:  1px solid #2c303c;
+					border-top-right-radius: 20px;
+					border-bottom-right-radius: 20px;
+					border-bottom:  1px solid #2c303c;
+					@include breakpoint($tablet){
+						padding: 1% 2% 1% 0;
+					}
+				}
+			}
+		}
+	}
+
+	.competences-historique{
+		@include breakpoint($tablet){
+			display: flex;
+			flex-direction: row-reverse;
+		}
+		.wrapper-border{
+			@include breakpoint($tablet){
+				border-right: 4px solid #dd9427;
+				height: 100%;
+			}
+		}
+		&__historique{
+			border-bottom: 4px solid #dd9427;
+			@include breakpoint($tablet){
+				width: span(16 wide of 24);
+				border-bottom: none;
+			}
+			.bouton-pages{
+				@include breakpoint($tablet){
+					display: flex;
+					justify-content: space-between;
+				}
+				#other-page{
+					display: none;
+					@include breakpoint($tablet){
+						display: block;
+					}
+				}
+			}
+			
+			#page2{
+				display: none;
+				@include breakpoint($tablet){
+					margin-top: 2%;
+				}
+			}
+
+			.container-emploi{
+				padding:5% span(2 of 24) 7%;
+				@include breakpoint($tablet){
+					padding:3% span(2 of 24) 4%;
+				}
+			}
+		}
+
+		&__competences{
+			background: #2c303c;
+			@include breakpoint($tablet){
+				width: span(8 wide of 24);
+			}
+			.wrapper-competences{
+				padding-bottom: 4%;
+				@include breakpoint($tablet){
+					padding-bottom: 15%;
+				}
+				.wrapper-line{
+					@include breakpoint($tablet){
+						padding: 0 5% 0 6%;
+					}
+				}
+			}
+			.container-rating{
+				border-top: 1px solid #dd9427;
+				border-bottom: 1px solid #dd9427;
+				height: 10px;
+				width: 90%;
+				margin: 0 auto;
+				.color-rating{
+					background: #dd9427;
+					height: 10px;
+					&--html{width: 92%;}
+					&--css{width: 90%;}
+					&--photoshop{width: 85%;}
+					&--sublime{width: 83%;}
+					&--office{width: 72%;}
+				}
+			}
+			.wrapper-contact{
+				@include breakpoint($tablet){
+					padding:3% 0 0;
+				}
+				.wrapper-line{
+					@include breakpoint($tablet){
+						padding: 0 5% 0 6%;
+					}
+				}
+				a{
+					color: #FFFFFF;
+				}
+				.containertext{
+					padding: 5% 0 5% span(2 of 24);
+					@include breakpoint($tablet){
+						padding: 5% 0 0 span(2 of 24);
+					}
+					p:last-child{
+						@include breakpoint($tablet){
+						margin-top: 10%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+

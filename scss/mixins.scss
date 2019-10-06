@@ -1,0 +1,43 @@
+/*********************
+BREAKPOINTS
+*********************/
+
+@mixin breakpoint($device) {
+
+    @if $device == $tablet {
+     @media all and (min-width: 768px)  { @content ; }
+  }
+    @else if $device == $laptop {
+     @media all and (min-width: 960px) { @content ; }
+  }
+   @else if $device == $desktop {
+     @media all and (min-width:1200px)  { @content ; }
+  }
+}
+
+/*********************
+Fontsize
+*********************/
+//script by Vincent Ruel
+@mixin all-font-size($font...) {
+  $position: 1;
+  @if length($font) < length($breakpoint-collection){
+    @for $i from length($font)+1 through length($breakpoint-collection){
+      $font: append($font, 0);
+    }
+  }
+  @each $min-breakpoint in $breakpoint-collection{
+    @if nth($font, $position) != 0{
+      @if $position != 1{
+        @media (min-width: $min-breakpoint) {
+          font-size: (nth($font, $position) * 10) + px;
+          font-size: nth($font, $position) + rem;
+        }
+      }@else{
+        font-size: (nth($font, $position) * 10) + px;
+        font-size: nth($font, $position) + rem;
+      }
+    }
+    $position: $position + 1;
+  }
+}
