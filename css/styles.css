@@ -15,182 +15,290 @@ VARIABLES
 *********************/
 a {
   text-decoration: none;
-  color: #000; }
+  color: #000;
+}
 
 img {
-  width: 100%; }
+  width: 100%;
+}
 
 .landing_page {
   display: flex;
-  flex-direction: column; }
-  @media all and (min-width: 768px) {
-    .landing_page {
-      flex-direction: row; } }
-  .landing_page__menu {
-    width: 100.84034%;
-    display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width: 768px) {
+  .landing_page {
     flex-direction: row;
-    justify-content: center; }
-    @media all and (min-width: 768px) {
-      .landing_page__menu {
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 15.96639%;
-        text-align: left; } }
-    .landing_page__menu .small-logo {
-      background-color: #000;
-      border: 3px solid #FFF;
-      color: #FFF;
-      border-radius: 60px;
-      box-shadow: 0 0 0 2px #000;
-      height: 60px;
-      width: 60px;
-      line-height: 60px;
-      text-align: center; }
-      @media all and (min-width: 768px) {
-        .landing_page__menu .small-logo {
-          margin: 0 auto; } }
-      .landing_page__menu .small-logo a {
-        color: #FFF; }
-    .landing_page__menu .sidenav {
-      margin: 0 5% 0;
-      font-size: 10px;
-      font-size: 1rem;
-      text-transform: uppercase; }
-      @media (min-width: 768px) {
-        .landing_page__menu .sidenav {
-          font-size: 8px;
-          font-size: 0.8rem; } }
-      @media (min-width: 960px) {
-        .landing_page__menu .sidenav {
-          font-size: 9px;
-          font-size: 0.9rem; } }
-      @media (min-width: 1920px) {
-        .landing_page__menu .sidenav {
-          font-size: 10px;
-          font-size: 1rem; } }
-      .landing_page__menu .sidenav a:hover {
-        text-decoration: line-through; }
-      @media all and (min-width: 768px) {
-        .landing_page__menu .sidenav {
-          margin-top: 5%;
-          margin: 5% auto; } }
-      .landing_page__menu .sidenav li {
-        line-height: 1.4;
-        color: #333; }
-      .landing_page__menu .sidenav li:hover .submenu {
-        display: block;
-        max-height: 200px;
-        transition: 0.6s; }
-      .landing_page__menu .sidenav .submenu {
-        overflow: hidden;
-        max-height: 0;
-        margin-left: 1rem;
-        transition: 0.6s; }
-  .landing_page section {
-    margin: 5% 0; }
+  }
+}
+
+.landing_page__menu {
+  width: 100.84034%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media all and (min-width: 768px) {
+  .landing_page__menu {
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 15.96639%;
+    text-align: left;
+  }
+}
+
+.landing_page__menu .small-logo {
+  background-color: #000;
+  border: 3px solid #FFF;
+  color: #FFF;
+  border-radius: 60px;
+  box-shadow: 0 0 0 2px #000;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .landing_page__menu .small-logo {
+    margin: 0 auto;
+  }
+}
+
+.landing_page__menu .small-logo a {
+  color: #FFF;
+}
+
+.landing_page__menu .sidenav {
+  margin: 0 5% 0;
+  font-size: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .landing_page__menu .sidenav {
+    font-size: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .landing_page__menu .sidenav {
+    font-size: 9px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .landing_page__menu .sidenav {
+    font-size: 10px;
+    font-size: 1rem;
+  }
+}
+
+.landing_page__menu .sidenav a:hover {
+  text-decoration: line-through;
+}
+
+@media all and (min-width: 768px) {
+  .landing_page__menu .sidenav {
+    margin-top: 5%;
+    margin: 5% auto;
+  }
+}
+
+.landing_page__menu .sidenav li {
+  line-height: 1.4;
+  color: #333;
+}
+
+.landing_page__menu .sidenav li:hover .submenu {
+  display: block;
+  max-height: 200px;
+  transition: 0.6s;
+}
+
+.landing_page__menu .sidenav .submenu {
+  overflow: hidden;
+  max-height: 0;
+  margin-left: 1rem;
+  transition: 0.6s;
+}
+
+.landing_page section {
+  margin: 5% 0;
+}
+
+.landing_page .movies-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width: 768px) {
   .landing_page .movies-section {
-    width: 100%;
-    display: flex;
-    flex-direction: column; }
-    @media all and (min-width: 768px) {
-      .landing_page .movies-section {
-        width: 83.19328%; } }
-    .landing_page .movies-section__container-submenu {
-      display: flex;
-      font-family: 'Roboto Condensed', sans-serif; }
-      @media all and (min-width: 768px) {
-        .landing_page .movies-section__container-submenu {
-          flex-direction: row;
-          flex-wrap: wrap;
-          justify-content: space-between;
-          text-align: center;
-          margin: 2% auto 4%;
-          width: 70%; } }
-      .landing_page .movies-section__container-submenu .title {
-        text-transform: uppercase; }
-      .landing_page .movies-section__container-submenu .categories a {
-        text-transform: uppercase;
-        font-weight: 600;
-        color: #666; }
-        .landing_page .movies-section__container-submenu .categories a:hover {
-          color: #999; }
-    .landing_page .movies-section__container-reviews {
-      display: flex;
-      flex-wrap: wrap; }
-    .landing_page .movies-section__review-card {
-      margin: 0 auto 3%;
-      width: 83.19328%;
-      padding: 4%;
-      border: 2px solid #808080;
-      box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.3); }
-      @media all and (min-width: 768px) {
-        .landing_page .movies-section__review-card {
-          width: 39.39394%;
-          padding: 2%; } }
-      @media all and (min-width: 960px) {
-        .landing_page .movies-section__review-card {
-          width: 19.19192%;
-          padding: 2%; } }
-    .landing_page .movies-section__movie-category {
-      font-size: 6px;
-      font-size: 0.6rem;
-      font-style: italic;
-      font-family: 'Roboto Condensed', sans-serif;
-      color: #666; }
-      @media (min-width: 768px) {
-        .landing_page .movies-section__movie-category {
-          font-size: 8px;
-          font-size: 0.8rem; } }
-      @media (min-width: 960px) {
-        .landing_page .movies-section__movie-category {
-          font-size: 9px;
-          font-size: 0.9rem; } }
-      @media (min-width: 1920px) {
-        .landing_page .movies-section__movie-category {
-          font-size: 10px;
-          font-size: 1rem; } }
-    .landing_page .movies-section__movie-title {
-      font-size: 7px;
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      font-weight: 600;
-      font-family: 'Roboto', sans-serif;
-      margin: 5% 0; }
-      @media (min-width: 768px) {
-        .landing_page .movies-section__movie-title {
-          font-size: 9px;
-          font-size: 0.9rem; } }
-      @media (min-width: 960px) {
-        .landing_page .movies-section__movie-title {
-          font-size: 10px;
-          font-size: 1rem; } }
-      @media (min-width: 1920px) {
-        .landing_page .movies-section__movie-title {
-          font-size: 13px;
-          font-size: 1.3rem; } }
-      @media all and (min-width: 960px) {
-        .landing_page .movies-section__movie-title {
-          margin: 3% 0; } }
-    .landing_page .movies-section__movie-review {
-      font-size: 6px;
-      font-size: 0.6rem;
-      line-height: 1.2; }
-      @media (min-width: 768px) {
-        .landing_page .movies-section__movie-review {
-          font-size: 7px;
-          font-size: 0.7rem; } }
-      @media (min-width: 960px) {
-        .landing_page .movies-section__movie-review {
-          font-size: 9px;
-          font-size: 0.9rem; } }
-    .landing_page .movies-section__movie-actors {
-      display: flex; }
-      .landing_page .movies-section__movie-actors img {
-        width: 23.07692%;
-        margin-right: 2.5641%;
-        margin-top: 5%; }
-        @media all and (min-width: 768px) {
-          .landing_page .movies-section__movie-actors img {
-            width: 18.36735%;
-            margin-right: 2.04082%; } }
+    width: 83.19328%;
+  }
+}
+
+.landing_page .movies-section__container-submenu {
+  display: flex;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media all and (min-width: 768px) {
+  .landing_page .movies-section__container-submenu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2% auto 4%;
+    width: 70%;
+  }
+}
+
+.landing_page .movies-section__container-submenu .title {
+  text-transform: uppercase;
+}
+
+.landing_page .movies-section__container-submenu .categories a {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #666;
+}
+
+.landing_page .movies-section__container-submenu .categories a:hover {
+  color: #999;
+}
+
+.landing_page .movies-section__container-reviews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.landing_page .movies-section__review-card {
+  margin: 0 auto 3%;
+  width: 83.19328%;
+  padding: 4%;
+  border: 2px solid #808080;
+  box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.3);
+}
+
+@media all and (min-width: 768px) {
+  .landing_page .movies-section__review-card {
+    width: 39.39394%;
+    padding: 2%;
+  }
+}
+
+@media all and (min-width: 960px) {
+  .landing_page .movies-section__review-card {
+    width: 19.19192%;
+    padding: 2%;
+  }
+}
+
+.landing_page .movies-section__movie-category {
+  font-size: 6px;
+  font-size: 0.6rem;
+  font-style: italic;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #666;
+}
+
+@media (min-width: 768px) {
+  .landing_page .movies-section__movie-category {
+    font-size: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .landing_page .movies-section__movie-category {
+    font-size: 9px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .landing_page .movies-section__movie-category {
+    font-size: 10px;
+    font-size: 1rem;
+  }
+}
+
+.landing_page .movies-section__movie-title {
+  font-size: 7px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  margin: 5% 0;
+}
+
+@media (min-width: 768px) {
+  .landing_page .movies-section__movie-title {
+    font-size: 9px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .landing_page .movies-section__movie-title {
+    font-size: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .landing_page .movies-section__movie-title {
+    font-size: 13px;
+    font-size: 1.3rem;
+  }
+}
+
+@media all and (min-width: 960px) {
+  .landing_page .movies-section__movie-title {
+    margin: 3% 0;
+  }
+}
+
+.landing_page .movies-section__movie-review {
+  font-size: 6px;
+  font-size: 0.6rem;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .landing_page .movies-section__movie-review {
+    font-size: 7px;
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .landing_page .movies-section__movie-review {
+    font-size: 9px;
+    font-size: 0.9rem;
+  }
+}
+
+.landing_page .movies-section__movie-actors {
+  display: flex;
+}
+
+.landing_page .movies-section__movie-actors img {
+  width: 23.07692%;
+  margin-right: 2.5641%;
+  margin-top: 5%;
+}
+
+@media all and (min-width: 768px) {
+  .landing_page .movies-section__movie-actors img {
+    width: 18.36735%;
+    margin-right: 2.04082%;
+  }
+}

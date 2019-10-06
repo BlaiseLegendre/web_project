@@ -1,0 +1,493 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flex",
+				"flex\tproperty"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"margi",
+				"margin-right\tproperty"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"paf",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"hei",
+				"height\tproperty"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"colum",
+				"column-reverse\tflex-direction"
+			],
+			[
+				"boder",
+				"border-right"
+			],
+			[
+				"bloc",
+				"block\tdisplay"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"dis",
+				"display\tproperty"
+			],
+			[
+				"bak",
+				"background-image"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"textst",
+				"text-transform\tproperty"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"fsi",
+				"font-size\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"lp-",
+				"lp-descr"
+			],
+			[
+				"sec",
+				"sec-title-education"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"outline",
+				"outline-color\tproperty"
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"ff",
+				"font-family\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"block",
+				"inline-block\tdisplay"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"b",
+				"block\tdisplay"
+			],
+			[
+				"il",
+				"inline-block\tdisplay"
+			],
+			[
+				"spac",
+				"space-between\tjustify-content"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"main",
+				"main-container"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"fos",
+				"font-size"
+			],
+			[
+				"fs",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"set syn",
+				"Set Syntax: Sass"
+			],
+			[
+				"sass",
+				"Set Syntax: CSS"
+			],
+			[
+				"emmet",
+				"Set Syntax: Emmet"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Install Package Control"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Blaise/Desktop/web_project"
+	],
+	"file_history":
+	[
+		"/C/Users/Blaise/Desktop/web_project/index.html",
+		"/C/Users/Blaise/Desktop/web_project/movies.html",
+		"/C/Users/Blaise/Desktop/web_project/package.json",
+		"/C/Users/Blaise/Desktop/web_project/.git/config",
+		"/C/Users/Blaise/Desktop/web_project/.gitignore",
+		"/C/Users/Blaise/Desktop/web_project/package-lock.json",
+		"/C/Users/Blaise/Desktop/web_project/backup/gulpfile.js",
+		"/C/Users/Blaise/Desktop/web_project/php/menu.php",
+		"/C/Users/Blaise/Desktop/web_project/index.php",
+		"/C/Users/Blaise/Desktop/web_project/backup/gulpfile-2.js",
+		"/C/Users/Blaise/Desktop/web_project/gulpfile.js",
+		"/C/Users/Blaise/Downloads/index (2).php",
+		"/C/Users/Blaise/Desktop/web_project/xampp/apache/conf/httpd.conf",
+		"/C/Users/Blaise/Desktop/web_project/php/menu.html",
+		"/C/Users/Blaise/Desktop/web_project/sections/menu.html",
+		"/C/Users/Blaise/Desktop/web_project/xampp/htdocs/index.php",
+		"/C/Users/Blaise/Desktop/web_project/xampp/htdocs/index.html",
+		"/C/Users/Blaise/Desktop/web_project/backup/index.php",
+		"/C/XAMPP/web_project/php/menu.php",
+		"/C/XAMPP/web_project/.htaccess",
+		"/C/XAMPP/web_project/index.php",
+		"/C/XAMPP/web_project/index.html",
+		"/C/XAMPP/web_project/gulpfile.js",
+		"/C/XAMPP/web_project/package.json",
+		"/C/XAMPP/web_project/backup/gulpfile.js",
+		"/C/Users/Blaise/Desktop/web_project/scss/styles.scss",
+		"/C/Users/Blaise/Desktop/web_project/gulpfile_php.js",
+		"/C/Users/Blaise/Desktop/web_project/pages/curiculum_vitae_1_fr.html",
+		"/C/Users/Blaise/Desktop/web_project/gulpfile_backup.js",
+		"/C/Users/Blaise/Desktop/web_project/scss/curriculum_one.scss",
+		"/C/Users/Blaise/Desktop/web_project/js/owlcarousel/owl.carousel.min.js",
+		"/C/Users/Blaise/Desktop/web_project/js/owlcarousel/owl.carousel.js",
+		"/C/Users/Blaise/Desktop/web_project/js/mixins.css",
+		"/C/Users/Blaise/Desktop/web_project/js/owlcarousel/README.md",
+		"/C/Users/Blaise/Desktop/web_project/scss/mixins.scss",
+		"/C/Users/Blaise/Desktop/web_project/scss/variables.scss",
+		"/C/Users/Blaise/Desktop/web_project/js/OwlCarousel2-2.3.4/Gruntfile.js",
+		"/C/Users/Blaise/Desktop/web_project/js/OwlCarousel2-2.3.4/docs/index.html",
+		"/C/Users/Blaise/Desktop/web_project/js/OwlCarousel2-2.3.4/docs/demos/mousewheel.html",
+		"/C/Users/Blaise/Desktop/web_project/css/curriculum_one.css",
+		"/C/Users/Blaise/Desktop/web_project/css/variables.css",
+		"/C/Users/Blaise/Desktop/web_project/css/reset.css",
+		"/C/Users/Blaise/Desktop/web_project/css/mixins.css",
+		"/C/Users/Blaise/AppData/Local/Temp/Temp1_takeout-20190810T013327Z-005.zip/Takeout/Google Photos/2017-09-12/IMG_20170912_082505406.jpg.json",
+		"/C/Users/Blaise/AppData/Local/Temp/Temp1_takeout-20190810T013327Z-002 (1).zip/Takeout/My Activity/Maps/MyActivity.html",
+		"/C/Users/Blaise/AppData/Local/Temp/Temp1_takeout-20190810T013327Z-002 (1).zip/Takeout/Keep/Assurance.html",
+		"/C/Users/Blaise/AppData/Local/Temp/Temp1_takeout-20190810T013327Z-002 (1).zip/Takeout/My Activity/Takeout/MyActivity.html",
+		"/C/Users/Blaise/Downloads/responsive-font.scss",
+		"/C/Users/Blaise/Downloads/variable.scss",
+		"/C/Users/Blaise/Desktop/web_project/css/styles.css",
+		"/C/Users/Blaise/Desktop/web_project/scss/curriculum.scss",
+		"/C/Users/Blaise/Desktop/web_project/curiculum_vitae_1_fr.html",
+		"/E/portfolio-master/index.html",
+		"/E/portfolio-master/scss/styles.scss",
+		"/C/Users/Blaise/Desktop/web_project/css/normalize.css",
+		"/C/Users/Blaise/Desktop/web_project/node_modules/normalize.css/README.md",
+		"/C/Users/Blaise/Downloads/cmder_mini/bin/Readme.md",
+		"/C/Users/Blaise/Desktop/project_1/package.json",
+		"/C/Users/Blaise/Desktop/project_1/index.html",
+		"/C/Users/Blaise/Desktop/project_1/scss/styles.scss",
+		"/C/Users/Blaise/Desktop/project_1/gulpfile.js",
+		"/C/Users/Blaise/Desktop/project_1/gulpfile2.js",
+		"/C/Users/Blaise/Desktop/project_1/js/havingfun.js",
+		"/C/Users/Blaise/Desktop/project_1/scss/styles.css",
+		"/C/Users/Blaise/Desktop/project_1/.gitattributes",
+		"/C/Users/Blaise/Desktop/project/scss/variables.scss",
+		"/C/Users/Blaise/Desktop/project/js/havingfun.js",
+		"/C/Users/Blaise/Desktop/project/js/mixins.css",
+		"/C/Users/Blaise/Desktop/project/scss/mixins.scss",
+		"/C/Users/Blaise/Desktop/project/scss/styles.scss",
+		"/C/Users/Blaise/Desktop/project/index.html",
+		"/C/Users/Blaise/Desktop/gulpfile.js",
+		"/C/Users/Blaise/Desktop/project/gulpfile.js",
+		"/C/Users/Blaise/Desktop/project/package-lock.json",
+		"/C/Users/Blaise/Desktop/project/css/styles.css",
+		"/C/Users/Blaise/Desktop/project/dist/css/styles.css",
+		"/C/Users/Blaise/Desktop/Projet/package.json",
+		"/C/Users/Blaise/Desktop/project/css/mixins.scss",
+		"/C/Users/Blaise/Desktop/project/pages/main.html",
+		"/C/Users/Blaise/Desktop/project/scss/style.scss",
+		"/C/Users/Blaise/Desktop/project/style.scss"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "web_project.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
